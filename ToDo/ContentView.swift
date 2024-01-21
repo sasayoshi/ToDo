@@ -26,7 +26,7 @@ struct ContentView: View {
                         Image(systemName: taskData[index].completed == true ? "checkmark.circle.fill" : "circle")
                         Text(taskData[index].title)
                     }
-                }.foregroundColor(.black)
+                }.foregroundColor(.primary)
                 
             }
             .navigationTitle("ToDoリスト")
